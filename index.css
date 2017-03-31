@@ -1,0 +1,22 @@
+.btn{
+    width: 200px;
+    position: relative;
+   margin-left: 250px;
+   height: 50px
+}
+#sonic{
+    position: relative;
+   top: -100px;
+   z-index: 5;
+   height: 180px;
+   width: 130px;
+}
+#firstMove {
+    display: none;
+}
+#theFight{
+    display: none;
+}
+#friends{
+    display: none;
+}

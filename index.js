@@ -1,1 +1,9 @@
-// JavaScript File
+$("#yes").click(function(){
+    $("#firstMove").show();
+    $("#decision").hide();
+});
+$("#Start").click(function(){
+    $("#firstMove").hide();
+    $("#decision").hide();
+    $("#theFight").show();
+});

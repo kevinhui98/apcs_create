@@ -2,14 +2,57 @@
 <html>
     <head>
         <title>APCS create task</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     </head>
     <body>
-        <h1>the fight with eggman</h1>
-        <div>
-        <button id="yes">help me fight eggman</button>
-        <button id="no">help another time</button>
+        <div id="Body">
+            <h1>the fight with eggman</h1>
+                <div id="decision">
+                    <button role="button" id="yes" class="btn btn-primary">
+                    fight eggman with me
+                    </button>
+                <br/>
+                <br/>
+                    <button role="button" id="no" class="btn btn-primary" >
+                        help another time
+                    </button>
+                </div>
+                <div id="firstMove">
+                        <button role="button" id="Start" class="btn btn-primary right" >
+                            going chao
+                        </button>
+                        <br/>
+                        <br/>
+                        <button role="button" id="Detour" class="btn btn-primary left" >
+                            find help
+                        </button>
+                    </div>
+                <div id="theFight">
+                    <button role="button" class="btn btn-primary right" >
+                            make a tornado
+                        </button>
+                        <br/>
+                        <br/>
+                        <button role="button" class="btn btn-primary left" >
+                            run straight to punch is face
+                        </button>
+                </div>
+                <div id="friends">
+                    <button role="button" id="Knuckles" class="btn btn-primary right" >
+                            going chao
+                        </button>
+                        <br/>
+                        <br/>
+                        <button role="button" id="Detour" class="btn btn-primary left" >
+                            find help
+                        </button>
+                </div>
+                    
+                    
+            <img src="http://i.imgur.com/t6JZMEh.png" id="sonic"/>
         </div>
-        <img src="http://i.imgur.com/t6JZMEh.png" id="sonic"/>
-        
+        <script src="index.js"></script>
     </body>
 </html>
