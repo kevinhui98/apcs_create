@@ -1,61 +1,80 @@
-#Body{
+#Body {
     margin: auto;
     width: 50%;
-    border: 3px;
-    padding: 10px;
+    /*border: 3px;*/
     /*padding-top: 100px !important;*/
 }
-h1{
+h1 {
     text-align: center;
     font-style: oblique;
-    font-size: 600% !important;
+    font-size: 450% !important;
     padding-top: 20px;
     padding-bottom: 50px;
 }
-.btn{
+.btn {
     width: 200px;
-   margin-left: 300px;
+    margin-left: 350px;
    height: 50px;
    margin-top: 20px;
-}
-#sonic{
-    position: relative;
-   top: -80px;
-   z-index: 5;
-   height: 200px;
-   width: 140px;
-}
-#superSonic{
-    position: relative;
-   top: -150px;
-   z-index: 5;
-   height: 220px;
-   width: 160px;
-}
-#largeImg{
-    position: relative;
-   top: -150px;
-   left: 100px;
-    height: 220px;
-   width: 170px;
 }
 #firstMove {
     display: none;
 }
-#theFight{
+#Retry {
     display: none;
 }
-#friends{
+#theFight {
     display: none;
 }
-#retry{
+#Friends {
     display: none;
 }
-#eggMan{
-    position: relative;
-   top: -350px;
-   left: 650px;
+#lastAction {
+    display: none;
+}
+#sonic {
+    position: absolute;
+   top: 200px;
+   z-index: 5;
+   height: 200px;
+   width: 140px;
+}
+#superSonic {
+    position: absolute;
+   top: 170px;
+   z-index: 5;
+   height: 220px;
+   width: 160px;
+}
+#largeImg {
+    position: absolute;
+    top: 150px;
+    height: 270px;
+   width: 220px;
+   left: 160px;
+}
+#eggMan {
+    position: absolute;
+   top: 120px;
+   right: 250px;
    z-index: 5;
    height: 270px;
    width: 170px;
 }
+#tornado {
+    position: absolute;
+    z-index: 10;
+    width: 300px;
+    height: 400px;
+    top: 10px;
+    right: 300px;
+}
+#result {
+    position: absolute;
+   top: 150px;
+   right: 50px;
+   z-index: 5;
+   height: 250px;
+   width: 400px;
+}
+
